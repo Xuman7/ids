@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-based IDS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web-based Intrusion Detection System</h1>
+        <form id="domainForm">
+            <label for="domainName">Enter Domain Name:</label>
+            <input type="text" id="domainName" name="domainName" required>
+            <button type="submit">Start Monitoring</button>
+        </form>
+        <div id="alertMessage" class="hidden">
+            <p>Alert: Suspicious activity detected for this domain!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
